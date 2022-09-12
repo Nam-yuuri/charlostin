@@ -1,0 +1,60 @@
+.main_title {
+    margin-bottom: 50px;
+}
+
+.main_title h2 {
+    color: #242424;
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.main_title h2:before {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #bfa373;
+    position: absolute;
+    right: -60px;
+    bottom: 7px;
+}
+
+.main_title.title_small p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    color: #797979;
+    font-style: normal;
+}
+.main_title p {
+    margin-bottom: 0px;
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.cs_offer_item a {
+    display: block;
+    padding-right: 30px;
+    margin-top: -28px;
+    position: relative;
+    z-index: 2;
+}
+
+a {
+    color: #bfa373;
+}
+
+.cs_offer_item a h4 {
+    background: #3d373e;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 22px;
+    font-size: 26px;
+}
+
+a:hover {
+    color: #bfa373;
+    text-decoration: none;
+}

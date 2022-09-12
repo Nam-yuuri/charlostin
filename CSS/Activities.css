@@ -1,0 +1,139 @@
+.activities_area .main_title {
+    margin-bottom: 85px;
+}
+
+.main_title {
+    margin-bottom: 50px;
+}
+
+.main_title h2 {
+    color: #242424;
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.main_title h2:before {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #bfa373;
+    position: absolute;
+    right: -60px;
+    bottom: 7px;
+}
+
+.activities_area .main_title h5 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Lora", serif;
+    color: #242424;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.activities_area .main_title p {
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0px;
+}
+.main_title p {
+    margin-bottom: 0px;
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.activities_item {
+    margin-bottom: 100px;
+}   
+
+.activities_item .activities_text {
+    background: #fff;
+    margin-left: -80px;
+    padding-left: 50px;
+    padding-right: 35px;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    -webkit-box-shadow: 0px 3px 98px 0px rgb(0 0 0 / 22%);
+    box-shadow: 0px 3px 98px 0px rgb(0 0 0 / 22%);
+    z-index: 2;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.activities_item .activities_text h4 {
+    font-size: 26px;
+    color: #242424;
+    margin-bottom: 12px;
+}
+
+.activities_item .activities_text p {
+    margin-bottom: 22px;
+}
+
+.activities_item .activities_text .main_btn {
+    padding: 0px 25px;
+}
+
+.activities_item.right .activities_text {
+    margin-left: 0px;
+    margin-right: -80px;
+}
+.activities_item .activities_text {
+    background: #fff;
+    margin-left: -80px;
+    padding-left: 50px;
+    padding-right: 35px;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    -webkit-box-shadow: 0px 3px 98px 0px rgb(0 0 0 / 22%);
+    box-shadow: 0px 3px 98px 0px rgb(0 0 0 / 22%);
+    z-index: 2;
+    position: relative;
+}   
+
+
+
+
+
+
+
+
+@media (max-width: 1023px){
+    .activities_item .activities_text {
+        margin-left: 0px;
+        padding-right: 30px;
+    }
+
+    .activities_item .activities_text {
+        padding-left: 30px;
+        padding-right: 15px;
+        padding-top: 31px;
+        padding-bottom: 38px;
+    }
+
+    .activities_item .activities_text {
+        margin-left: 0px;
+        padding-right: 30px;
+    }
+
+    .activities_item .activities_text {
+        padding-left: 30px;
+        padding-right: 15px;
+        padding-top: 31px;
+        padding-bottom: 38px;
+    }
+
+    .activities_item.right .activities_text {
+        margin: auto;
+    }
+}

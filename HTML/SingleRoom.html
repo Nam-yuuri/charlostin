@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../IMG/favicon.png">
+    <script src="https://kit.fontawesome.com/22e64ba7d1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Handlee&family=Indie+Flower&family=Kalam:wght@300;400;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Parisienne&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,900&family=Sacramento&family=Shadows+Into+Light&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" /> -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+
+
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/SingleRoom.css">
+
+    <title>Single Room - charlostin</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker(
+                {
+                    showAniim: "drop",
+                    minDate: "0"
+                }
+            );
+            $("#datepicker1").datepicker(
+                {
+                    minDate: "0"
+                }
+            );
+
+        });
+    </script>
+
+
+</head>
+
+<body onscroll="myFunction()">
+    <header>
+        <div class="mfp-bg my-mfp-zoom-in mfp-ready" id="bgr"></div>
+        <div class="mfp-wrap mfp-close-btn-in mfp-auto-cursor my-mfp-zoom-in mfp-ready" id="mfp-wrap_id" tabindex="-1">
+            <div class="mfp-container mfp-inline-holder">
+                <div class="mfp-content" id="mfp-content_id">
+                    <div class="search_area zoom-anim-dialog" id="test-search">
+                        <div class="search_box_inner">
+                            <h3>Search</h3>
+                            <div class="input-group">
+
+                                <form method="get" class="search-form" action="https://shtheme.net/demosd/charlostin1/">
+                                    <input type="search" class="form-control" placeholder="Search" value="" name="s"
+                                        id="s">
+                                </form>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i
+                                            class="icon icon-Search"></i></button>
+                                </span>
+                            </div>
+                        </div>
+                        <button id="btn_CL" title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_area">
+            <div class="top_menu">
+                <div class="container">
+                    <div class="justify-content-between d-flex">
+                        <div class="left_side">
+                            <p>
+                                <i class="fa-solid fa-phone"></i>
+                                Need help? Call us now :
+                                <a href="tel:18004567890">1800 456 7890</a>
+                            </p>
+                        </div>
+                        <div class="right_side">
+                            <ul class="list nav__bar">
+                                <li>
+                                    <a href="#">Our Story</a>
+                                </li>
+                                <li>
+                                    <a href="#">News & Awards</a>
+                                </li>
+                                <li>
+                                    <a href="#">Login</a>
+                                </li>
+                                <li>
+                                    <a href="#">Registration</a>
+                                </li>
+                            </ul>
+                            <div id="nice-select-input_id" for="nice-select-input" class="nice-select" tabindex="0">
+                                <span class="current" id="lang">En</span>
+                                <ul class="list" id="list_lang_id">
+                                    <li data-value="1" class="option selected" id="en">En</li>
+                                    <li data-value="2" class="option" id="ban">Ban</li>
+                                    <li data-value="3" class="option" id="ind">Ind</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_menu" id="navbarpage_id">
+                <nav class="container navbar navbar-expand-lg navbar-light bg-light PC">
+                    <a class="navbar-brand" id="navbar-brand" href="#">
+                        <img src="../IMG/image11 (1).png" alt="">
+                    </a>
+                    <button class="navbar-toggler" style="display: none;"></button>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav menu_nav ml-auto  ">
+                            <li id="menu-item-460 menu-item"
+                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-460 submenu active">
+                                <a title="Home" href="../HTML/index.html">Home<i class="icon-down-open-mini"></i></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-691"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-691">
+                                        <a title="Home Page 1" href=#>Home Page
+                                            1</a>
+                                    </li>
+                                    <li id="menu-item-692"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692">
+                                        <a title="Home Page 2" href="#">Home Page 2</a>
+                                    </li>
+                                    <li id="menu-item-693"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-126 current_page_item menu-item-693">
+                                        <a title="Home Page 3" href="#">Home Page 3</a>
+                                    </li>
+                                    <li id="menu-item-694"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-694">
+                                        <a title="Home Page 4" href="#">Home Page 4</a>
+                                    </li>
+                                    <li id="menu-item-695"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-695">
+                                        <a title="Home Page 5" href="#">Home Page 5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-461 menu-item"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-461 submenu">
+                                <a title="Rooms" href="../HTML/RoomsGrid.html">Rooms<i
+                                        class="icon-down-open-mini"></i></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-462"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-462">
+                                        <a title="Rooms Grid Style" href="#">Rooms Grid
+                                            Style</a>
+                                    </li>
+                                    <li id="menu-item-463"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-463">
+                                        <a title="Rooms List Style" href="#">Rooms List
+                                            Style</a>
+                                    </li>
+                                    <li id="menu-item-515"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-515 submenu">
+                                        <a title="Single Room" href="#!">Single Room</a>
+                                        <ul role="menu" class=" dropdown-menu">
+                                            <li id="menu-item-512"
+                                                class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-512">
+                                                <a title="- Booking with default form" href="#">–
+                                                    Booking with default form</a>
+                                            </li>
+                                            <li id="menu-item-513"
+                                                class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-513">
+                                                <a title="- Booking with contact form" href="#">–
+                                                    Booking with contact form</a>
+                                            </li>
+                                            <li id="menu-item-514"
+                                                class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-514">
+                                                <a title="- Booking with external links" href="#">–
+                                                    Booking with external links</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-464 menu-item"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-464 submenu">
+                                <a title="Pages" href="">Pages<i class="icon-down-open-mini"></i></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-465"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-465 submenu">
+                                        <a title="Booking Styles" href="#!">Booking Styles</a>
+                                        <ul role="menu" class=" dropdown-menu">
+                                            <li id="menu-item-529"
+                                                class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-529">
+                                                <a title="- Booking with default form" href="#">–
+                                                    Booking with default form</a>
+                                            </li>
+                                            <li id="menu-item-530"
+                                                class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-530">
+                                                <a title="- Booking with contact form" href="#">–
+                                                    Booking with contact form</a>
+                                            </li>
+                                            <li id="menu-item-531"
+                                                class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-531">
+                                                <a title="- Booking with external links" href="#">–
+                                                    Booking with external links</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-466"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466">
+                                        <a title="Service" href="#">Service</a>
+                                    </li>
+                                    <li id="menu-item-470"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470">
+                                        <a title="Our Restaurant" href="#">Our
+                                            Restaurant</a>
+                                    </li>
+                                    <li id="menu-item-517"
+                                        class="menu-item menu-item-type-post_type menu-item-object-spa menu-item-517"><a
+                                            title="Spa &amp; Relax" href="#">Spa
+                                            &amp;
+                                            Relax</a></li>
+                                    <li id="menu-item-467"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467">
+                                        <a title="Activities" href="#">Activities</a>
+                                    </li>
+                                    <li id="menu-item-472"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472">
+                                        <a title="Promotion" href="#">Promotion</a>
+                                    </li>
+                                    <li id="menu-item-518"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-518 submenu">
+                                        <a title="Events" href="#">Events</a>
+                                        <ul role="menu" class=" dropdown-menu">
+                                            <li id="menu-item-468"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468">
+                                                <a title="- Events" href="#">–
+                                                    Events</a>
+                                            </li>
+                                            <li id="menu-item-519"
+                                                class="menu-item menu-item-type-post_type menu-item-object-events menu-item-519">
+                                                <a title="- Event Single" href="#">–
+                                                    Event Single</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-475"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-475 submenu">
+                                        <a title="Gallery" href="#!">Gallery</a>
+                                        <ul role="menu" class=" dropdown-menu">
+                                            <li id="menu-item-474"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-474">
+                                                <a title="- Gallery Style 1" href="#">– Gallery
+                                                    Style 1</a>
+                                            </li>
+                                            <li id="menu-item-473"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473">
+                                                <a title="- Gallery Style 2" href="#">– Gallery
+                                                    Style 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-471"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-471">
+                                        <a title="Testimonials" href="#">Testimonials</a>
+                                    </li>
+                                    <li id="menu-item-469"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469">
+                                        <a title="Coming Soon" href="#">Coming Soon</a>
+                                    </li>
+                                    <li id="menu-item-523"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-523">
+                                        <a title="404 Error" href="#">404
+                                            Error</a>
+                                    </li>
+                                    <li id="menu-item-489"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                                        <a title="Term &amp; Conditions" href="#">Term &amp;
+                                            Conditions</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-477 menu-item"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-477 submenu">
+                                <a title="Blog" href="../HTML/Blog.html">Blog<i class="icon-down-open-mini"></i></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-478"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-478">
+                                        <a title="Blog Left Sidebar" href="#">Blog Left
+                                            Sidebar</a>
+                                    </li>
+                                    <li id="menu-item-479"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479">
+                                        <a title="Blog Right Sidebar" href="#">Blog Right
+                                            Sidebar</a>
+                                    </li>
+                                    <li id="menu-item-480"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480">
+                                        <a title="Blog Without Sidebar" href="#">Blog Without
+                                            Sidebar</a>
+                                    </li>
+                                    <li id="menu-item-516"
+                                        class="menu-item menu-item-type-post_type menu-item-object-post menu-item-516">
+                                        <a title="Blog details" href="#">Blog
+                                            details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-636 menu-item"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-636 submenu">
+                                <a title="Shop" href="#">Shop<i class="icon-down-open-mini"></i></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-634"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-634">
+                                        <a title="Shop" href="#">Shop</a>
+                                    </li>
+                                    <li id="menu-item-630"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-630">
+                                        <a title="4 Column Shop" href="#">4 Column Shop</a>
+                                    </li>
+                                    <li id="menu-item-635"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-635">
+                                        <a title="Sidebar Shop" href="#">Sidebar Shop</a>
+                                    </li>
+                                    <li id="menu-item-633"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633">
+                                        <a title="Cart" href="#">Cart</a>
+                                    </li>
+                                    <li id="menu-item-632"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-632">
+                                        <a title="Checkout" href="#">Checkout</a>
+                                    </li>
+                                    <li id="menu-item-631"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-631">
+                                        <a title="My Account" href="#">My
+                                            Account</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-481 menu-item"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-481 submenu">
+                                <a title="About Us" href="../HTML/ourIntroduction.html">About Us<i
+                                        class="icon-down-open-mini"></i></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-483"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483">
+                                        <a title="Our Introduction" href="#">Our
+                                            Introduction</a>
+                                    </li>
+                                    <li id="menu-item-482"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482">
+                                        <a title="Our History" href="#">Our History</a>
+                                    </li>
+                                    <li id="menu-item-490"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">
+                                        <a title="Term &amp; Conditions" href="#">Term &amp;
+                                            Conditions</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-485 menu-item"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a
+                                    title="Contact Us" href="../HTML/ContactUs.html">Contact
+                                    Us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="search_icon"><a class="popup-with-zoom-anim" href="#test-search">
+                                    <div id="icon_search_btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                </a>
+                            </li>
+
+                            <li class="book_now"><a href="../HTML/SingleRoom.html">Book
+                                    Now</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <nav class="container navbar navbar-expand-lg navbar-light bg-light mobile">
+                    <a class="navbar-brand">
+                        <img src="../IMG/image11 (1).png" alt="">
+                    </a>
+                    <label class="buttun_nav" for="buttun_nav-input">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </nav>
+                <input type="checkbox" name="" id="buttun_nav-input" style="display: none;">
+                <div class="navbar-collapse__box">
+                    <div class="navbar-collapse collapse show">
+                        <ul class="nav navbar-nav menu_nav ml-auto  ">
+                            <li id="menu-item-460"
+                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-460 submenu active">
+                                <a title="Home" href="../HTML/index.html">Home<i
+                                        class="icon-down-open-mini"></i></a>
+
+                            </li>
+                            <li id="menu-item-461"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-461 submenu">
+                                <a title="Rooms" href="../HTML/RoomsGrid.html">Rooms<i
+                                        class="icon-down-open-mini"></i></a>
+
+                            </li>
+                            <li id="menu-item-464"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-464 submenu">
+                                <a title="Pages" href="#!">Pages<i class="icon-down-open-mini"></i></a>
+
+                            </li>
+                            <li id="menu-item-477"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-477 submenu">
+                                <a title="Blog" href="../HTML/Blog.html">Blog<i
+                                        class="icon-down-open-mini"></i></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-478"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-478">
+                                        <a title="Blog Left Sidebar"
+                                            href="#">Blog Left
+                                            Sidebar</a>
+                                    </li>
+                                    <li id="menu-item-479"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479">
+                                        <a title="Blog Right Sidebar"
+                                            href="#">Blog Right
+                                            Sidebar</a>
+                                    </li>
+                                    <li id="menu-item-480"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480">
+                                        <a title="Blog Without Sidebar"
+                                            href="#">Blog Without
+                                            Sidebar</a>
+                                    </li>
+                                    <li id="menu-item-516"
+                                        class="menu-item menu-item-type-post_type menu-item-object-post menu-item-516">
+                                        <a title="Blog details" href="../HTML/BlogDetails.html">Blog
+                                            details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-636"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-636 submenu">
+                                <a title="Shop" href="#">Shop<i
+                                        class="icon-down-open-mini"></i></a>
+
+                            </li>
+                            <li id="menu-item-481"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-481 submenu">
+                                <a title="About Us" href="../HTML/ourIntroduction.html">About Us<i
+                                        class="icon-down-open-mini"></i></a>
+
+                            </li>
+                            <li id="menu-item-485"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a
+                                    title="Contact Us"
+                                    href="../HTML/ContactUs.html">Contact
+                                    Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="breadcrumb_area" style="background: url(../IMG/banner-bg.jpg) no-repeat scroll center;
+
+    background-size: cover;
+
+    padding: 75px 0px;">
+
+        <div class="container">
+
+            <div class="breadcrumb_text">
+
+                <h2>Single Room</h2>
+
+                <div class="link">
+
+                    <a class="active" href="https://shtheme.net/demosd/charlostin1">Home</a>
+
+                    <a>Single Room</a>
+                    <a>Room Details</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="room_details_area p_100 hb_single_room">
+        <div class="container">
+            <div class="row room_details_inner">
+                <div class="col-lg-8">
+                    <div class="room_details">
+
+                        <div class="title">
+                            <h4>
+                                <a href="#">Junior Suit</a>
+                            </h4>
+                        </div>
+
+
+                        <div class="price">
+                            <span class="title-price">Price</span>
+
+                            <span class="price_value price_min">$135.0</span>
+
+                            <span class="unit">Night</span>
+                        </div>
+
+                        <div class="hb_room_gallery camera_wrap camera_emboss" id="camera_wrap_231"
+                            style="display: block; height: 470px; margin-bottom: 130px;">
+                            <div class="slider-for camera_fakehover">
+                                <div class="cameraSlide cameraSlide_0">
+                                    <img src="../IMG/room-1-1-1000x667.jpg" class="imgLoaded" data-alignment=""
+                                        data-portrait="">
+
+                                </div>
+                                <div class="cameraSlide cameraSlide_1">
+                                    <img src="../IMG/room-5-1000x667.jpg" class="imgLoaded" data-alignment=""
+                                        data-portrait="">
+
+                                </div>
+                                <div class="cameraSlide cameraSlide_2 cameracurrent">
+                                    <img src="../IMG/room-4-1-1000x667.jpg" class="imgLoaded" data-alignment=""
+                                        data-portrait="">
+
+                                </div>
+                                <div class="cameraSlide cameraSlide_4"><img src="../IMG/room-2-1-1000x667.jpg"
+                                        class="imgLoaded" data-alignment="" data-portrait="">
+
+                                </div>
+                                <div class="cameraSlide cameraSlide_3 cameranext">
+                                    <img src="../IMG/room-3-1-1000x667.jpg" class="imgLoaded" data-alignment=""
+                                        data-portrait="">
+
+                                </div>
+
+                            </div>
+                            <div class="slider-nav camera_thumbs">
+                                <div class="pix_thumb pix_thumb_0 camera_visThumb" id="pix_thumb_1_id">
+                                    <img src="../IMG/room-1-1-150x150.jpg" class="camera_thumb">
+                                </div>
+                                <div class="pix_thumb pix_thumb_1 camera_visThumb" id="pix_thumb_2_id">
+                                    <img src="../IMG/room-5-150x150.jpg" class="camera_thumb">
+                                </div>
+                                <div class="pix_thumb pix_thumb_2 camera_visThumb" id="pix_thumb_3_id">
+                                    <img src="../IMG/room-4-1-150x150.jpg" class="camera_thumb">
+                                </div>
+                                <div class="pix_thumb pix_thumb_4 camera_visThumb" id="pix_thumb_5_id">
+                                    <img src="../IMG/room-2-1-150x150.jpg" class="camera_thumb">
+                                </div>
+                                <div class="pix_thumb pix_thumb_3 camera_visThumb" id="pix_thumb_4_id">
+                                    <img src="../IMG/room-3-1-150x150.jpg" class="camera_thumb">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="hb_single_room_details">
+
+                            <ul class="hb_single_room_tabs">
+                                <li id="Description">
+                                    <a class="active" id="Description_a">
+                                        Description </a>
+                                </li>
+                                <li id="Information">
+                                    <a id="Information_a">
+                                        Additional Information </a>
+                                </li>
+                                <li id="Reviews">
+                                    <a id="Reviews_a">
+                                        Reviews <span class="comment-count">(0)</span> </a>
+                                </li>
+                                <li id="Pricing">
+                                    <a id="Pricing_a">
+                                        Pricing Plans </a>
+                                </li>
+                            </ul>
+
+
+                            <div class="hb_single_room_tabs_content">
+
+                                <div id="hb_room_description" class="hb_single_room_tab_details"
+                                    style="display: block;">
+
+
+                                    <div class="delux_text">
+                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                                            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                                            nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                            consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+                                            ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
+                                            iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                            consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                            esse quam nihil molestiae consequatur.</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="facilities_room">
+                                        <div class="r_title">
+                                            <h3>Room Facilities</h3>
+                                            <p></p>
+                                        </div>
+                                        <div class="row m0 faci_item_inner">
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>TV LED</h6>
+                                                    <p> <i class="fa-solid fa-tv"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>Breakfast</h6>
+                                                    <p> <i class="fa-solid fa-mug-saucer"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>Free Parking</h6>
+                                                    <p> <i class="fa-solid fa-car"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>Free Wi-Fi</h6>
+                                                    <p> <i class="fa-solid fa-wifi"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>AC Rooms</h6>
+                                                    <p> <i class="fa-solid fa-bed"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="room_overview">
+                                        <div class="r_title">
+                                            <h3>Room Overview</h3>
+                                            <p></p>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped ">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Occupancy:</td>
+                                                        <td>Max three Persons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Size : </td>
+                                                        <td>800 sq. feet</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>View</td>
+                                                        <td>Sea or Garden view</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Room Service</td>
+                                                        <td>Available per request</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Terraces :</td>
+                                                        <td>Balcony</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Free Pickup Facility</td>
+                                                        <td>Yes</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Internet Free</td>
+                                                        <td>Yes</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Gym</td>
+                                                        <td>Yes</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div id="hb_room_additinal" class="hb_single_room_tab_details" style="display: none;">
+
+
+                                    <div class="facilities_room">
+                                        <div class="r_title">
+                                            <h3>Room Facilities</h3>
+                                        </div>
+                                        <div class="row m0 faci_item_inner">
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>TV LED</h6>
+                                                    <p> <i class="fa-solid fa-tv"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>Breakfast</h6>
+                                                    <p> <i class="fa-solid fa-mug-saucer"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>Free Parking</h6>
+                                                    <p> <i class="fa-solid fa-car"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>Free Wi-Fi</h6>
+                                                    <p> <i class="fa-solid fa-wifi"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="faci_r_item">
+                                                <div class="faci_r_item_box">
+                                                    <h6>AC Rooms</h6>
+                                                    <p> <i class="fa-solid fa-bed"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="room_overview">
+                                        <div class="r_title">
+                                            <h3>Room Overview</h3>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Occupancy:</td>
+                                                        <td>Max three Persons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Size : </td>
+                                                        <td>800 sq. feet</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>View</td>
+                                                        <td>Sea or Garden view</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Room Service</td>
+                                                        <td>Available per request</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Terraces :</td>
+                                                        <td>Balcony</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Free Pickup Facility</td>
+                                                        <td>Yes</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Internet Free</td>
+                                                        <td>Yes</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Gym</td>
+                                                        <td>Yes</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="hb_room_reviews" class="hb_single_room_tab_details" style="display: none;">
+
+
+                                    <div id="reviews">
+                                        <div id="comments">
+                                            <h2>
+                                                Reviews </h2>
+
+                                            <p class="hb-noreviews">There are no reviews yet.</p>
+                                        </div>
+
+
+                                        <div id="review_form_wrapper">
+                                            <div id="review_form">
+                                                <div id="respond" class="comment-respond">
+                                                    <h3 id="reply-title" class="comment-reply-title">Be the first to
+                                                        review “Junior Suit” <small><a rel="nofollow"
+                                                                id="cancel-comment-reply-link"
+                                                                href="/demosd/charlostin1/?hb_room=junior-suit-2#respond"
+                                                                style="display:none;">Cancel reply</a></small></h3>
+                                                    <form
+                                                        action="https://shtheme.net/demosd/charlostin1/wp-comments-post.php"
+                                                        method="post" id="commentform" class="comment-form"
+                                                        novalidate="">
+                                                        <p class="comment-form-rating"><label for="rating">Your
+                                                                Rating</label>
+                                                        </p>
+                                                        <div class="hb-rating-input">
+                                                            <span class="rating-input" id="rating-input_1" data-rating="1"><i
+                                                                    class="fa-regular fa-star"></i>
+                                                            </span>
+                                                            <span class="rating-input" id="rating-input_2" data-rating="2"><i
+                                                                    class="fa-regular fa-star"></i>
+                                                            </span>
+                                                            <span class="rating-input" id="rating-input_3" data-rating="3"><i
+                                                                    class="fa-regular fa-star"></i>
+                                                            </span>
+                                                            <span class="rating-input" id="rating-input_4" data-rating="4"><i
+                                                                    class="fa-regular fa-star"></i>
+                                                            </span>
+                                                            <span class="rating-input" id="rating-input_5" data-rating="5"><i
+                                                                    class="fa-regular fa-star"></i>
+                                                            </span>
+                                                            <input name="rating" id="rating" type="hidden" value="">
+                                                        </div>
+                                                        <p class="comment-form-comment"><label for="comment">Your
+                                                                Review</label><textarea id="comment" name="comment"
+                                                                cols="45" rows="8" aria-required="true"></textarea></p>
+                                                        <p class="comment-form-author"><label for="author">Name <span
+                                                                    class="required">*</span></label> <input id="author"
+                                                                name="author" type="text" value="" size="30"
+                                                                aria-required="true"></p>
+                                                        <p class="comment-form-email"><label for="email">Email <span
+                                                                    class="required">*</span></label> <input id="email"
+                                                                name="email" type="text" value="" size="30"
+                                                                aria-required="true"></p>
+                                                        <p class="comment-form-cookies-consent"><input
+                                                                id="wp-comment-cookies-consent"
+                                                                name="wp-comment-cookies-consent" type="checkbox"
+                                                                value="yes"> <label
+                                                                for="wp-comment-cookies-consent">Save my name, email,
+                                                                and website in this browser for the next time I
+                                                                comment.</label></p>
+                                                        <p class="form-submit"><input name="submit" type="submit"
+                                                                id="submit" class="submit" value="SUBMIT NOW"> <input
+                                                                type="hidden" name="comment_post_ID" value="231"
+                                                                id="comment_post_ID">
+                                                            <input type="hidden" name="comment_parent"
+                                                                id="comment_parent" value="0">
+                                                        </p>
+                                                        <p style="display: none;"><input type="hidden"
+                                                                id="akismet_comment_nonce" name="akismet_comment_nonce"
+                                                                value="672244361c"></p>
+                                                        <p style="display: none;"></p><input type="hidden" id="ak_js"
+                                                            name="ak_js" value="1656394399198">
+                                                    </form>
+                                                </div><!-- #respond -->
+                                            </div>
+                                        </div>
+
+
+                                        <div class="clear"></div>
+                                    </div>
+
+
+                                </div>
+                                <div id="hb_room_pricing_plans" class="hb_single_room_tab_details"
+                                    style="display: none;">
+
+
+                                    <h4 class="hb_room_pricing_plan_data">
+                                        Regular plan </h4>
+
+                                    <table class="hb_room_pricing_plans">
+                                        <thead>
+                                            <tr>
+                                                <th>Mon</th>
+                                                <th>Tue</th>
+                                                <th>Wed</th>
+                                                <th>Thu</th>
+                                                <th>Fri</th>
+                                                <th>Sat</th>
+                                                <th>Sun</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    $135.0 </td>
+                                                <td>
+                                                    $135.0 </td>
+                                                <td>
+                                                    $135.0 </td>
+                                                <td>
+                                                    $135.0 </td>
+                                                <td>
+                                                    $135.0 </td>
+                                                <td>
+                                                    $150.0 </td>
+                                                <td>
+                                                    $150.0 </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="book_room_area">
+                        <div class="night_price">
+                            <h5> $135 / Night</h5>
+                        </div>
+
+
+                        <div class="home_banner_box">
+                            <div class="book_room_box">
+                                <div class="book_table_item">
+                                    <h3>check availability</h3>
+                                </div>
+                                <form name="hb-search-form" action="https://shtheme.net/demosd/charlostin1/?page_id=187"
+                                    class="hb-search-form-62ba929fb718d">
+
+                                    <div class="book_table_item">
+                                        <div class="form-group">
+                                            <div class="hb-form-field-input hb_input_field">
+                                                <input type="text" id="datepicker" name="check_in_date" value=""
+                                                    placeholder="Arrival Date">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="book_table_item">
+                                        <div class="form-group">
+                                            <div class="hb-form-field-input hb_input_field">
+                                                <input type="text" id="datepicker1" name="check_out_date" value=""
+                                                    placeholder="Departure Date">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="book_table_item">
+                                        <div class="hb-form-field-input">
+                                            <select name="adults_capacity" style="display: none;">
+                                                <option value="0">Adults</option>
+                                                <option value="25">1</option>
+                                                <option value="26">2</option>
+                                                <option value="27">3</option>
+                                                <option value="28">4</option>
+                                            </select>
+                                            <div class="nice-select" tabindex="0" id="nice-select_id">
+                                                <span class="current" id="current_id1">Adults</span>
+                                                <ul class="list">
+                                                    <li data-value="0" class="option selected">Adults</li>
+                                                    <li data-value="25" class="option">1</li>
+                                                    <li data-value="26" class="option">2</li>
+                                                    <li data-value="27" class="option">3</li>
+                                                    <li data-value="28" class="option">4</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="book_table_item">
+                                        <div class="hb-form-field-input">
+                                            <select name="max_child" style="display: none;">
+                                                <option value="0">Children</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                            <div class="nice-select" tabindex="0" id="nice-select_Children"><span
+                                                    class="current" id="current_id2">Children</span>
+                                                <ul class="list">
+                                                    <li data-value="0" class="option selected">Children</li>
+                                                    <li data-value="1" class="option">1</li>
+                                                    <li data-value="2" class="option">2</li>
+                                                    <li data-value="3" class="option">3</li>
+                                                    <li data-value="4" class="option">4</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="book_table_item">
+                                        <input type="hidden" id="nonce" name="nonce" value="9e8c9a28d3"><input
+                                            type="hidden" name="_wp_http_referer"
+                                            value="/demosd/charlostin1/?hb_room=junior-suit-2"> <input type="hidden"
+                                            name="hotel-booking" value="results">
+                                        <input type="hidden" name="widget-search" value="">
+                                        <input type="hidden" name="action" value="hotel_booking_parse_search_params">
+                                        <p class="hb-submit">
+                                            <button class="main_btn" type="submit">Book this room</button>
+                                        </p>
+                                    </div>
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book_box">
+                        <div class="media">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4>Your Book</h4>
+                                <p>Your cart is empty</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="share_hotel">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Share this hotel room</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer_area">
+        <div class="footer_widgets_area">
+            <div class="container">
+                <div class="row f_widget_inner">
+                    <div class="col-lg-3 col-sm-6">
+                        <aside class="f_widgets about_widget">
+                            <div id="text-2">
+                                <div class="textwidget">
+                                    <p><img class="alignnone size-full wp-image-452"
+                                            src="http://shtheme.net/demosd/charlostin1/wp-content/uploads/2018/09/f-logo.png"
+                                            alt="" width="139" height="48"></p>
+                                    <p>Charlostin is a WordPress theme to build Hotel &amp; Resort websites. It has good
+                                        features and you will love.</p>
+                                    <ul class="list f_social">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <aside class="f_widgets link_widget">
+                            <div id="text-3">
+                                <div class="textwidget">
+                                    <div class="f_title">
+                                        <h3>Quick links</h3>
+                                    </div>
+                                    <ul class="list">
+                                        <li><a href="#">About Hotel</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms &amp; Conditionis</a></li>
+                                        <li><a href="#">Faq</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <aside class="f_widgets contact_widget">
+                            <div id="text-4">
+                                <div class="textwidget">
+                                    <div class="f_title">
+                                        <h3>Contact Info</h3>
+                                    </div>
+                                    <h4>(1800) 574 9687</h4>
+                                    <p>256, Resort Street,, New York 24</p>
+                                    <p>Email : <a href="mailto:info@charlostin.com">info@charlostin.com</a></p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <aside class="f_widgets news_widget">
+                            <div id="text-5">
+                                <div class="textwidget">
+                                    <div class="f_title">
+                                        <h3>Newsletter</h3>
+                                    </div>
+                                    <p>Get Special offers &amp; Discounts</p>
+                                    <div role="form" class="wpcf7" id="wpcf7-f453-o1" lang="en-US" dir="ltr">
+                                        <div class="screen-reader-response"></div>
+                                        <form action="/demosd/charlostin1/?page_id=126#wpcf7-f453-o1" method="post"
+                                            class="wpcf7-form" novalidate="novalidate">
+                                            <div style="display: none;">
+                                                <input type="hidden" name="_wpcf7" value="453"><br>
+                                                <input type="hidden" name="_wpcf7_version" value="5.0.2"><br>
+                                                <input type="hidden" name="_wpcf7_locale" value="en_US"><br>
+                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f453-o1"><br>
+                                                <input type="hidden" name="_wpcf7_container_post" value="0">
+                                            </div>
+                                            <div class="input-group">
+                                                <p><span class="wpcf7-form-control-wrap your-email"><input type="email"
+                                                            name="your-email" value="" size="40"
+                                                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control"
+                                                            aria-required="true" aria-invalid="false"
+                                                            placeholder="Enter your email address"></span></p>
+                                                <div class="input-group-append">
+                                                    <input type="submit" value="Subscribe"
+                                                        class="wpcf7-form-control wpcf7-submit input-group-text submit_btn main_btn"><span
+                                                        class="ajax-loader"></span>
+                                                </div>
+                                            </div>
+                                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="container">
+                <div class="copyright_inner justify-content-between d-flex">
+                    <div class="left_side">
+                        <p> © Copyright Charlostin 2021. All right reserved. </p>
+                    </div>
+                    <div class="right_side ">
+                        <a href="# "> Purchase Now </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script> -->
+
+
+
+
+
+
+
+
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="../JS/script.js"></script>
+    <script src="../JS/SingleRoom.js"></script>
+
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+    <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>

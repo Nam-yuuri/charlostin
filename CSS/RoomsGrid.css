@@ -1,0 +1,159 @@
+.left_title {
+    margin-bottom: 50px;
+}
+
+.left_title h2 {
+    font-size: 32px;
+    color: #242424;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.left_title p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #797979;
+    margin-bottom: 0px;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+}
+
+.left_title p:before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #bfa373;
+    position: absolute;
+    right: -65px;
+    bottom: 7px;
+}
+
+.room_inner {
+    margin-bottom: -50px;
+}
+
+.room_item {
+    margin-bottom: 50px;
+}
+
+.room_item .room_img {
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.room_item .room_img:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    opacity: 0;
+    z-index: 1;
+}
+
+.room_item:hover .room_img img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.room_item .room_img img {
+    -webkit-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+a:hover {
+    color: #bfa373;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+a:active, a:hover {
+    outline: 0;
+    color: #bfa373;
+    border-color: #bfa373;
+    background-position: 100%;
+}
+a {
+    color: #bfa373 ;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.room_item .room_text h4 {
+    font-size: 22px;
+    color: #242424;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+.room_item .room_text p {
+    margin-bottom: 30px;
+}
+
+.room_item .room_text .room_bottom .left_text h5 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #242424;
+    margin-bottom: 0px;
+    position: relative;
+    top: -18px;
+}
+
+.room_item .room_text .room_bottom .left_text h5 span {
+    font-size: 25px;
+}   
+
+.room_item .room_text .room_bottom .left_text p {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0px;
+    margin-top: -18px;
+}
+.room_item .room_text p {
+    margin-bottom: 30px;
+}
+
+.left_title h2 {
+    font-size: 32px;
+    color: #242424;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}   
+
+@media (max-width: 1023px){
+
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    img.img-fluid {
+        width: 100%;
+    }
+
+    .justify-content-between {
+        display: flex;
+        justify-content: space-between !important;
+    }
+}

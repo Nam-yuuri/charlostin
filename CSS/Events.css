@@ -1,0 +1,77 @@
+.events_item .events_text {
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.events_item .events_text h4 {
+    color: #242424;
+    font-size: 24px;
+    margin-bottom: 12px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+.events_item .events_text p {
+    margin-bottom: 15px;
+}
+
+.events_item .events_text .date {
+    margin-bottom: 25px;
+}
+
+a:hover {
+    color: #bfa373;
+    text-decoration: none;
+}
+
+.events_item .events_text h4:hover {
+    color: #bfa373;
+}
+
+.events_item .events_text .date a:last-child {
+    margin-right: 0px;
+}
+
+.events_item .events_text .date a {
+    color: #bfa373;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    position: relative;
+}
+
+.events_item .events_text .main_btn {
+    line-height: 38px;
+}
+.main_btn:hover {
+    color: #bfa373;
+    border-color: #bfa373;
+    background-position: 100%;
+}
+
+.row.m0 {
+    margin: 0px;
+}
+.events_item {
+    border: 1px solid #dedede;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 50px !important;
+}
+
+.main_title {
+    margin-bottom: 50px;
+}
+
+.events_item .events_text .date a:first-child::after {
+    content: "|";
+    color: #bfa373;
+    position: absolute;
+    right: -16px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
